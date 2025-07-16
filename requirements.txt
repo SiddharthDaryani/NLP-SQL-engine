@@ -1,0 +1,6 @@
+Flask==2.3.3
+transformers==4.37.2
+torch==2.2.0
+mysql-connector-python==8.0.33
+sentencepiece==0.2.0
+huggingface_hub[cli]
