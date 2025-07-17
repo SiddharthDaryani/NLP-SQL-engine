@@ -8,7 +8,7 @@ cd NLP-SQL-engine
 source init_setup.sh
 ```
 
-
+## HERE IS THE WORKFLOW OF MY PROJECT
 ![Flow Chart of My Project](./Flow-Chart.png)
 ## Here are key components and technologies used in this project:
 
