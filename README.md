@@ -7,6 +7,9 @@ git clone https://github.com/SiddharthDaryani/NLP-SQL-engine.git
 cd NLP-SQL-engine
 source init_setup.sh
 ```
+
+
+![Flow Chart of My Project](./Flow-Chart.png)
 ## Here are key components and technologies used in this project:
 
 ### Python: Main programming language for backend logic and integration.
