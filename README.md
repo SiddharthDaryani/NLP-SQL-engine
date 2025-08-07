@@ -30,8 +30,10 @@ Follow the instructions below to get your environment running with the NLP-SQL-e
 
 1. **Clone the repository**
 
+```bash
 git clone https://github.com/SiddharthDaryani/NLP-SQL-engine.git
 cd NLP-SQL-engine
+```
 
 
 2. **Set up the database**
