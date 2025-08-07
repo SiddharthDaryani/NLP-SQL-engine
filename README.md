@@ -74,7 +74,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact ✉️
 
-Created and maintained by Siddharth Daryani.
+Created and maintained by SiddharthDaryani.
 
 ---
 
