@@ -1,31 +1,77 @@
 # NLP-SQL-engine
 
-## HOW TO RUN THIS ON YOUR SYSTEM
-### Make sure to create a database in your system, use the `SQL-script.sql` to create one.
-```console
-git clone https://github.com/SiddharthDaryani/NLP-SQL-engine.git
-cd NLP-SQL-engine
-source init_setup.sh
-```
+A Natural Language Processing (NLP) powered SQL query engine that converts natural language text queries into executable SQL statements. This project aims to simplify database querying by allowing users to interact with SQL databases using everyday language.
+
+---
 
 ## HERE IS THE WORKFLOW OF MY PROJECT
 ![Flow Chart of My Project](./Flow-Chart.png)
-## Here are key components and technologies used in this project:
 
-### Python: Main programming language for backend logic and integration.
+## Features
 
-### Flask: Used to create a REST API server that receives natural language queries and returns SQL results.
+- **Natural Language to SQL Translation:** Convert plain English queries into accurate SQL commands.
+- **Database Agnostic Setup:** Easily connect to any SQL database by configuring your environment.
+- **Quick Setup:** Ready-to-use scripts to initialize your database with sample data.
+- **Open Source:** Fully accessible source code for customization and extension.
 
-### Natural Language Processing (NLP): Converts natural language queries to SQL using a transformer-based model.
+---
 
-### Transformers and Tokenizers: Implements models for NLP tasks such as text-to-SQL translation, managed via Python package tools.
+## Getting Started
 
-### MySQL: Database that stores table data and executes the generated SQL queries.
+Follow the instructions below to get your environment running with the NLP-SQL-engine.
 
-### HTML/JavaScript Frontend: Provides a user interface to enter questions and display results using AJAX/fetch for real-time responses.
+### Prerequisites
 
-### Prompt Engineering: Constructs input prompts to maximize text-to-SQL model accuracy and reliability.
+- Python 3.x
+- Git
+- A SQL database server (MySQL, PostgreSQL, etc.)
 
-### Python Package Management: Ensures environment consistency and resolves dependency issues, especially for machine learning libraries.
+### Installation
 
-### Error Handling & Debugging: Includes routines for troubleshooting SQL syntax, dependency conflicts, and API errors.
+1. **Clone the repository**
+
+git clone https://github.com/SiddharthDaryani/NLP-SQL-engine.git
+cd NLP-SQL-engine
+
+
+2. **Set up the database**
+
+- Create a database in your SQL server of choice.
+- Use the provided `SQL-script.sql` file to create the necessary tables and insert sample data.
+
+3. **Initialize the environment**
+
+Run the setup script to configure your environment and install dependencies.
+
+source init_setup.sh
+
+
+---
+
+## Usage
+
+Once the environment is set up, you can start querying your database using natural language commands. The engine will parse and convert these inputs into SQL and execute them on your configured database.
+
+*(Add details or examples here as relevant to the functionality of the project)*
+
+---
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## Contact
+
+Created and maintained by Siddharth Daryani.
+
+---
+
+*Happy querying with natural language!*
